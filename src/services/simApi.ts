@@ -22,7 +22,7 @@ export interface SearchResult {
 /**
  * Fetches SIM data based on the provided mobile number.
  * 
- * @param {string} mobileNumber - The mobile number to search (e.g., "03206948323").
+ * @param {string} mobileNumber - The mobile number to search (e.g., "03462054xxx").
  * @returns {Promise<SearchResult>} - The API response with success status.
  */
 export const searchSimData = async (mobileNumber: string): Promise<SearchResult> => {
